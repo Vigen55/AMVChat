@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "868931138899",
+    "firebase_url": "https://amv-chat-3e372.firebaseio.com",
+    "project_id": "amv-chat-3e372",
+    "storage_bucket": "amv-chat-3e372.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868931138899:android:276b4449eaf2b857765da6",
+        "android_client_info": {
+          "package_name": "com.example.amvchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868931138899-lhckg7dcm77r0dnrimebvjr339ttkn3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8l9Od9JBFtTBSzPhxhtYc-MORXDt5FnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868931138899-lhckg7dcm77r0dnrimebvjr339ttkn3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

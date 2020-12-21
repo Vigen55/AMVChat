@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/profile_image"
+            android:src="@drawable/profile"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_right"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/show_txt_message"
+            android:text="@string/app_name"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:padding="8dp" />
+
+        <ImageView
+            android:background="@drawable/backgraunt_chat_image_right"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/right_image_view"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="@color/green"
+            android:outlineSpotShadowColor="@color/green"
+            android:scaleType="centerCrop"
+           android:src="@drawable/welcome"
+            android:visibility="gone"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/txt_seen"
+            android:layout_below="@id/show_txt_message"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+</RelativeLayout>
+</RelativeLayout>
